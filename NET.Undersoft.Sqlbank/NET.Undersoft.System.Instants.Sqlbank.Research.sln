@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.System.Instants.Sqlbank", "Undersoft.System.Instants.Sqlbank\Undersoft.System.Instants.Sqlbank.csproj", "{FC8F0145-A5AA-418A-9307-BE74B3D397E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undersoft.System.Instants.Sqlbank.Tests", "Undersoft.System.Instants.Sqlbank.Tests\Undersoft.System.Instants.Sqlbank.Tests.csproj", "{E53FB07B-EFC3-4D5E-90BF-26F54148F468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8F0145-A5AA-418A-9307-BE74B3D397E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8F0145-A5AA-418A-9307-BE74B3D397E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8F0145-A5AA-418A-9307-BE74B3D397E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8F0145-A5AA-418A-9307-BE74B3D397E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53FB07B-EFC3-4D5E-90BF-26F54148F468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53FB07B-EFC3-4D5E-90BF-26F54148F468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53FB07B-EFC3-4D5E-90BF-26F54148F468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53FB07B-EFC3-4D5E-90BF-26F54148F468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58DAF693-4B27-4695-B8E5-1262C135C551}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reflection.Emit" Version="4.7.0" />
+    <PackageReference Include="System.Reflection.Emit.ILGeneration" Version="4.7.0" />
+    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Undersoft.System">
+      <HintPath>..\Packages\Undersoft.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Undersoft.System.Extract">
+      <HintPath>..\Packages\Undersoft.System.Extract.dll</HintPath>
+    </Reference>
+    <Reference Include="Undersoft.System.Instants">
+      <HintPath>..\Packages\Undersoft.System.Instants.dll</HintPath>
+    </Reference>
+    <Reference Include="Undersoft.System.Multemic">
+      <HintPath>..\Packages\Undersoft.System.Multemic.dll</HintPath>
+    </Reference>
+    <Reference Include="Undersoft.System.Uniques">
+      <HintPath>..\Packages\Undersoft.System.Uniques.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

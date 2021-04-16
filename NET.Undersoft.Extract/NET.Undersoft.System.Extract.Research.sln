@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.System.Extract", "Undersoft.System.Extract\Undersoft.System.Extract.csproj", "{A5C16064-D6E4-427B-A410-ED8487DA2D7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.System.Extract.Tests", "Undersoft.System.Extract.Tests\Undersoft.System.Extract.Tests.csproj", "{FD494B9D-2EB5-430C-BDF8-1D9BB9A4FD53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5C16064-D6E4-427B-A410-ED8487DA2D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C16064-D6E4-427B-A410-ED8487DA2D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C16064-D6E4-427B-A410-ED8487DA2D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C16064-D6E4-427B-A410-ED8487DA2D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD494B9D-2EB5-430C-BDF8-1D9BB9A4FD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD494B9D-2EB5-430C-BDF8-1D9BB9A4FD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD494B9D-2EB5-430C-BDF8-1D9BB9A4FD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD494B9D-2EB5-430C-BDF8-1D9BB9A4FD53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17EBFD81-9582-4FFE-8D2B-66C860F19D21}
+	EndGlobalSection
+EndGlobal

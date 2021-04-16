@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.System.Instants.Mathline", "Undersoft.System.Instants.Mathline\Undersoft.System.Instants.Mathline.csproj", "{14D5E350-B837-4AF2-A7AC-6B1096D61A54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.System.Instants.Mathline.Tests", "Undersoft.System.Instants.Mathline.Tests\Undersoft.System.Instants.Mathline.Tests.csproj", "{8B40E2FD-AFDE-46FA-9449-14B93A7B3F17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14D5E350-B837-4AF2-A7AC-6B1096D61A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D5E350-B837-4AF2-A7AC-6B1096D61A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D5E350-B837-4AF2-A7AC-6B1096D61A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D5E350-B837-4AF2-A7AC-6B1096D61A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B40E2FD-AFDE-46FA-9449-14B93A7B3F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B40E2FD-AFDE-46FA-9449-14B93A7B3F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B40E2FD-AFDE-46FA-9449-14B93A7B3F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B40E2FD-AFDE-46FA-9449-14B93A7B3F17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB9CDC27-2C16-4096-A847-242BECBA1217}
+	EndGlobalSection
+EndGlobal

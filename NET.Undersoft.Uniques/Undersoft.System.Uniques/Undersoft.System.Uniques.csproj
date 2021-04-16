@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Hashkey\Algorithm\Base\**" />
+    <Compile Remove="Hashkey\Algorithm\Interfaces\**" />
+    <Compile Remove="Hashkey\Algorithm\Utilities\**" />
+    <EmbeddedResource Remove="Hashkey\Algorithm\Base\**" />
+    <EmbeddedResource Remove="Hashkey\Algorithm\Interfaces\**" />
+    <EmbeddedResource Remove="Hashkey\Algorithm\Utilities\**" />
+    <None Remove="Hashkey\Algorithm\Base\**" />
+    <None Remove="Hashkey\Algorithm\Interfaces\**" />
+    <None Remove="Hashkey\Algorithm\Utilities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Buffers" Version="4.5.0" />
+    <PackageReference Include="System.Memory" Version="4.5.3" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Undersoft.System">
+      <HintPath>..\Packages\Undersoft.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Undersoft.System.Extract">
+      <HintPath>..\Packages\Undersoft.System.Extract.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

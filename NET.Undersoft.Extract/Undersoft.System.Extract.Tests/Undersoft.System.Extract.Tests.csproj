@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Undersoft.System.Extract\Undersoft.System.Extract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Undersoft.System">
+      <HintPath>..\Packages\Undersoft.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Undersoft.System.Instants">
+      <HintPath>..\Packages\Undersoft.System.Instants.dll</HintPath>
+    </Reference>
+    <Reference Include="Undersoft.System.Multemic">
+      <HintPath>..\..\NET.Undersoft.System.Labors\Packages\Undersoft.System.Multemic.dll</HintPath>
+    </Reference>
+    <Reference Include="Undersoft.System.Uniques">
+      <HintPath>..\Packages\Undersoft.System.Uniques.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

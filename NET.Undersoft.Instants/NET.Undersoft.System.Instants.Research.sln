@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.System.Instants.Tests", "Undersoft.System.Instants.Tests\Undersoft.System.Instants.Tests.csproj", "{DF862FA1-099C-491D-A46B-E2FB78429AD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undersoft.System.Instants", "Undersoft.System.Instants\Undersoft.System.Instants.csproj", "{CA2A9745-246A-407D-9296-7A13052DAA6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF862FA1-099C-491D-A46B-E2FB78429AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF862FA1-099C-491D-A46B-E2FB78429AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF862FA1-099C-491D-A46B-E2FB78429AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF862FA1-099C-491D-A46B-E2FB78429AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2A9745-246A-407D-9296-7A13052DAA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2A9745-246A-407D-9296-7A13052DAA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2A9745-246A-407D-9296-7A13052DAA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2A9745-246A-407D-9296-7A13052DAA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83442050-4DE4-41F9-B8D4-D2E1C9ED5B41}
+	EndGlobalSection
+EndGlobal
